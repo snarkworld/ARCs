@@ -1,11 +1,11 @@
-# ARC: 0007 
-**Title:** Stake-Weighted Governance on Aleo
-**Authors:** @snarkworld
-**Discussion:** #99 
-**Topic:** Governance  
-**Status:** Draft 
-**Created:** 08-18-25
-
+---
+arc: 7
+title: Stake-Weighted Governance on Aleo
+authors: snarkworld
+discussion: https://github.com/AleoHQ/ARCs/discussions/99
+topic: Network
+status: Draft
+created: 8/18/2025
 ---
 
 ## Abstract
@@ -82,7 +82,7 @@ sequenceDiagram
 ### Snapshot Behavior
 At the **snapshot height**:
 
-- All bonded validators and their delegations are recorded.  
+- All bonded validators and their delegations are recorded, **only staked ALEO will count towards the vote**.  
 - Delegators automatically inherit their validator’s vote unless they explicitly override.  
 - The snapshot defines **final vote weights** used in tallying.  
 
@@ -136,7 +136,8 @@ flowchart LR
 ### Tallying Process
 Final tallies must include:  
 - Total stake for **YES / NO / ABSTAIN**  
-- Quorum achievement 
+     -  Decision requires quorum to pass
+- Quorum achievement requires at least 2/3 (66.667%) of network stake
 - Pass/fail status 
 - Validator and delegator vote receipts  
 - Signed payloads & snapshot  
