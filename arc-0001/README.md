@@ -4,7 +4,7 @@ title: ARC Proposal Guidelines
 authors: The Aleo Team <hello@aleo.org>
 discussion:
 topic: Meta
-status: Living
+status: Voting Open
 created: 2020-02-07
 ---
 
