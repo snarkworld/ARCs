@@ -9,6 +9,7 @@ created: 8/18/2025
 signature_domain: aleo-gov-v1
 voting_start: 135
 voting_end: 200
+snapshot: 200
 ---
 
 ## Abstract
