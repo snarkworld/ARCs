@@ -13,6 +13,7 @@ voting_end: 400
 snapshot: 401
 ---
 
+
 ## Abstract
 
 This file serves as the suggested template for new ARC proposals.
