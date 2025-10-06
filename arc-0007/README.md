@@ -4,7 +4,7 @@ title: Stake-Weighted Governance on Aleo
 authors: snarkworld
 discussion: https://github.com/AleoHQ/ARCs/discussions/99
 topic: Network
-status: Draft
+status: Active
 created: 8/18/2025
 signature_domain: aleo-gov-v1
 pass_threshold: 66 # Stake percentage required to pass
